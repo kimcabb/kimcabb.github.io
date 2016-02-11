@@ -1,0 +1,80 @@
+body 	{
+      	text-align: left;
+      	background: #a52a2a;
+      	color: #fffaf0;
+      	font-family: baskerville;
+      	font-size: 20px;
+    		}
+h1	{
+	color: #000000;
+	text-align: right;
+	font-family: impact; charcoal; sans-serif;
+	font-size: 40px;
+	font-variant: small-caps;
+		}
+article	{
+	font-family: baskerville;
+	font-size: 20px;
+	text-align: left;
+	max-width: 1080px;
+	padding: 20px;
+	margin: 0 auto;
+		}
+form	{
+	text-align: center;
+		}
+ul	{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #f4a460;
+	font-family: impact;
+	font-size: 22px;
+		}
+li	{
+	float: left;
+		}
+li a 	{
+    	display: block;
+    	color: #000;
+    	text-align: center;
+    	padding: 18px 20px;
+    	text-decoration: none;
+		}
+li a:hover {
+	background-color: #008b8b;
+	color: #dcdcdc;
+		}
+li a.active {
+   	background-color: #000000;
+   	color: #c0c0c0
+		}
+input	{
+	border: 0;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 15px;
+		}
+input[type="text"] {
+	background: #696969;
+	color: #fffaf0;
+		}
+input[type="email"] {
+	background: #696969;
+	color: #fffaf0;
+		}
+input[type="tel"] {
+	background: #696969;
+	color: #fffaf0;
+		}
+input[type="submit"] {
+	background: #008b8b;
+	color: #000000;
+		}
+footer	{
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+	font-family: baskerville;
+		}
