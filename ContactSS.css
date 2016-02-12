@@ -2,18 +2,18 @@ body 	{
       	text-align: left;
       	background: #a52a2a;
       	color: #fffaf0;
-      	font-family: baskerville;
+      	font-family: 'Titillium Web', sans-serif;
       	font-size: 20px;
     		}
 h1	{
 	color: #000000;
-	text-align: right;
-	font-family: impact; charcoal; sans-serif;
+	text-align: left;
+	font-family: 'Poiret One', cursive;
 	font-size: 40px;
 	font-variant: small-caps;
 		}
 article	{
-	font-family: baskerville;
+	font-family: 'Poiret One', cursive;
 	font-size: 20px;
 	text-align: left;
 	max-width: 1080px;
@@ -29,7 +29,7 @@ ul	{
 	padding: 0;
 	overflow: hidden;
 	background-color: #f4a460;
-	font-family: impact;
+	font-family: 'Raleway', sans-serif;
 	font-size: 22px;
 		}
 li	{
@@ -53,6 +53,7 @@ li a.active {
 input	{
 	border: 0;
 	padding: 10px;
+	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	border-radius: 15px;
 		}
@@ -76,5 +77,5 @@ footer	{
 	font-size: 14px;
 	font-style: italic;
 	text-align: center;
-	font-family: baskerville;
+	font-family: 'Titillium Web', sans-serif;
 		}

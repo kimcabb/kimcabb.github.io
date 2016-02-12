@@ -2,12 +2,12 @@ body 	{
       	text-align: center;
       	background: #ffffff;
       	color: #000000;
-      	font-family: baskerville;
+      	font-family: 'Titillium Web', sans-serif;
     		}
 h1	{
 	color: #000000;
-	text-align: right;
-	font-family: impact; charcoal; sans-serif;
+	text-align: left;
+	font-family: 'Poiret One', cursive;
 	font-size: 40px;
 	font-variant: small-caps;
 		}
@@ -18,7 +18,7 @@ ul	{
 	overflow: hidden;
 	background-color: #000000;
 	color: #dcdcdc;
-	font-family: impact;
+	font-family: 'Raleway', sans-serif;
 	font-size: 22px;
 		}
 li	{
@@ -38,15 +38,4 @@ li a:hover {
 li a.active {
    	background-color: #dcdcdc;
    	color: #000000;
-		}
-article	{
-	font-family: baskerville;
-	font-size: 20px;
-	text-align: left;
-	max-width: 1080px;
-	padding: 20px;
-	margin: 0 auto;
-		}
-p 	{
-	font-size: 20px;
 		}
