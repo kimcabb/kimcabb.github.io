@@ -1,8 +1,8 @@
 body 	{
-  text-align: center;
-  background: #a52a2a;
-  color: #fffaf0;
-  font-family: baskerville;
+  	text-align: center;
+  	background: #a52a2a;
+  	color: #fffaf0;
+  	font-family: baskerville;
     		}
 h1	{
 	color: #000000;
@@ -12,7 +12,7 @@ h1	{
 	font-variant: small-caps;
 		}
 ul	{
-	list-style-type: none
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -24,19 +24,19 @@ li	{
 	float: left;
 		}
 li a 	{
-  display: block;
-  color: #000;
-  text-align: center;
-  padding: 18px 20px;
-  text-decoration: none;
+  	display: block;
+  	color: #000000;
+  	text-align: center;
+  	padding: 18px 20px;
+  	text-decoration: none;
 		  }
 li a:hover {
 	background-color: #008b8b;
 	color: #dcdcdc;
 		  }
 li a.active {
-  background-color: #000000;
-  color: #c0c0c0
+  	background-color: #000000;
+  	color: #c0c0c0
 		}
 article	{
 	font-family: baskerville;
