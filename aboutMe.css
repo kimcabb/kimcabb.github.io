@@ -1,0 +1,53 @@
+/*stylesheet for the Portfolio page*/
+
+body 	{
+  text-align: center;
+  background: #f4f5f9;
+  color: #181842;
+  font-family: 'Titillium Web', sans-serif;
+    		}
+h1	{
+	color: #181842;
+	text-align: left;
+	font-family: 'Poiret One', cursive;
+	font-size: 40px;
+	font-variant: small-caps;
+		}
+ul	{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #f1404b;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+		}
+li	{
+	float: left;
+		}
+li a 	{
+  display: block;
+  color: #f4f5f9;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+		  }
+li a:hover {
+	background-color: #181842;
+	color: #f1404b;
+		  }
+li a.active {
+  background-color: #f8ca00;
+  color: #181842
+		}
+article	{
+	font-family: 'Poiret One', cursive;
+	font-size: 15px;
+	text-align: left;
+	max-width: 1080px;
+	padding: 20px;
+	margin: 0 auto;
+		}
+p 	{
+	font-size: 22px;
+		}
