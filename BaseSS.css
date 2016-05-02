@@ -1,11 +1,11 @@
 body 	{
-  	text-align: center;
-  	background: #a52a2a;
-  	color: #fffaf0;
-  	font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  background: #f4f5f9;
+  color: #181842;
+  font-family: 'Titillium Web', sans-serif;
     		}
 h1	{
-	color: #000000;
+	color: #181842;
 	text-align: left;
 	font-family: 'Poiret One', cursive;
 	font-size: 40px;
@@ -16,7 +16,7 @@ ul	{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #f4a460;
+	background-color: #f1404b;
 	font-family: 'Raleway', sans-serif;
 	font-size: 22px;
 		}
@@ -24,17 +24,17 @@ li	{
 	float: left;
 		}
 li a 	{
-  	display: block;
-  	color: #000000;
-  	text-align: center;
-  	padding: 18px 20px;
-  	text-decoration: none;
+  display: block;
+  color: #f4f5f9;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
 		  }
 li a:hover {
-	background-color: #008b8b;
-	color: #dcdcdc;
+	background-color: #181842;
+	color: #f1404b;
 		  }
 li a.active {
-  	background-color: #000000;
-  	color: #c0c0c0
+  background-color: #f8ca00;
+  color: #181842
 		}
