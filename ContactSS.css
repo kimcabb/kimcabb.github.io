@@ -31,14 +31,17 @@ li a 	{
   text-align: center;
   padding: 18px 20px;
   text-decoration: none;
+  border-radius: 10px;
 		  }
 li a:hover {
 	background-color: #181842;
 	color: #f1404b;
+  border-radius: 10px;
 		  }
 li a.active {
   background-color: #f8ca00;
-  color: #181842
+  color: #181842;
+  border-radius: 10px;
 		}
 input	{
 	border: 0;
