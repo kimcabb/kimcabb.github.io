@@ -5,6 +5,13 @@ body 	{
   font-family: 'Titillium Web', sans-serif;
 }
 
+header {
+  top: 0;
+  height: 550px;
+  width: auto;
+  bottom: 0;
+}
+
 h1 {
 	color: #181842;
 	text-align: left;
@@ -49,7 +56,7 @@ li a.active {
   border-radius: 10px;
 }
 
-button	{
+/*button	{
 	border: 0;
 	padding: 10px;
 	font-family: 'Raleway', sans-serif;
@@ -57,9 +64,33 @@ button	{
 	border-radius: 15px;
 	background-color: #3ac569;
 	color: #181842;
+}*/
+
+projects {
+  top: 0;
+  height: 450px;
+  width: auto;
+  bottom: 0;
+}
+
+#sowgood {
+  top: 0;
+  height: 400px;
+  width: auto;
+  bottom: 0;
+}
+
+footer {
+  top: 0;
+  height: 250px;
+  width: auto;
+  bottom: 0;
+  color: #f1404b;
 }
 
 .parallax-window {
-  min-height: 400px;
+  top: 0;
+  bottom: 0;
+  height: 400px;
   background: transparent;
 }
