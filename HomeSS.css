@@ -1,16 +1,42 @@
 body 	{
   text-align: center;
-  background: #f4f5f9;
+  /*background: #f4f5f9;*/
   color: #181842;
   font-family: 'Titillium Web', sans-serif;
-    		}
-h1	{
+}
+
+/*.inside {
+  opacity: 1.0;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}*/
+
+.background {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /*opacity: 0.5;*/
+  background: url("http://i.imgur.com/K2itHqG.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+h1 {
 	color: #181842;
 	text-align: left;
 	font-family: 'Poiret One', cursive;
 	font-size: 40px;
 	font-variant: small-caps;
-		}
+}
+
 ul	{
 	list-style-type: none;
 	margin: 0;
@@ -51,6 +77,9 @@ button	{
 	background-color: #3ac569;
 	color: #181842;
 		}
-img 	{
+/*img 	{
 	border-radius: 10px;
-		}
+  border-style: solid;
+  border-color: #181842;
+  border-width: 15px;
+		}*/
