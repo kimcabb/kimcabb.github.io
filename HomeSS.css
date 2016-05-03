@@ -63,16 +63,16 @@ li a.active {
   bottom: 0;
   font-family: 'Poiret One', cursive;
   text-align: justify;
-  padding: 50px 100px 50px 100px;
+  padding: 30px 100px 50px 100px;
   font-size: 18px;
   color: #181842;
 }
 
 #sowgood {
-  height: 300px;
-  width: 425px;
+  height: 325px;
+  width: 450px;
   float: right;
-  margin: 0 0 10px 20px;
+  margin: 0 0 10px 25px;
   border-radius: 10px;
 }
 
