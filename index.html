@@ -9,30 +9,34 @@
 	<link rel="stylesheet" type="text/css" href="HomeSS.css">
 	<title>Kimberly Cabbagestalk</title>
 </head>
-<body>
-	<header class="header" data-parallax="scroll" data-image-src="assets/images/DC-blooms-spring.jpg">
-	<h1>Kimberly Cabbagestalk Creer</h1>
-		<ul>
-			<li><a class="active" href="#home">Home</a></li>
-			<li><a href="CV.htm">Resume</a></li>
-			<li><a href="Projects.htm">Projects</a></li>
-			<li><a href="Blog.htm">Blog</a></li>
-			<li><a href="Photos.htm">Photos</a></li>
-				<ul style="float:right;list-style-type:none;">
-					<li><a href="aboutMe.htm">About Me</a></li>
-					<li><a href="Contact.htm">Contact</a></li>
-				</ul>
+<header class="header" data-parallax="scroll" data-image-src="assets/images/DC-blooms-spring.jpg">
+	<!-- <li><a class="active" href="#home">Home</a></li> -->
+	<ul>
+		<li><a href="CV.htm">Resume</a></li>
+		<li><a href="#projects">Projects</a></li>
+	<!-- <li><a href="Photos.htm">Photos</a></li> -->
+		<li><a href="#bio">About Me</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<ul style="float:right;list-style-type:none;">
+			<li><a id="name">Kimberly Cabbagestalk Creer</a></li>
 		</ul>
-	</header>
+	</ul>
+</header>
+<body>
 	<div class="projects">
-		<p>
-			Project links go here.
-		</p>
+		<a name="projects"></a>
+			<p><strong>SowGood Farms Community App</strong><img id="sowgood" src="assets/images/SowGood-screenshot.png" alt="SowGood Farms" />
+			I developed this application as a resource for accessing and storing information about seasonal food crops.  Users can manipulate data that are pertinent to foods they are interested in planting.  The app separates the crops by season and features a list for each with foods that are suitable to plant at that time.  Technologies I used include: <strong>Ruby on Rails</strong> to build the database and API, <strong>React.js</strong> to build the online shopping cart, and <strong>CSS</strong> for styling.<br />
+			<br />
+			I really enjoyed the planning process for this project because I could dive in to my love of agriculture and pair it with my interest in managing data.  I am currently developing improvements to create a fully functioning e-commerce application.  Users will be able to create an online profile and access the flourishing online  community of local growers, and local growers will be able to display their food stocks and take online orders from their customers.<br />
+			<br />
+			From small indoor kitchen pots to burgeoning home farms, this application has something for every green thumb!</p>
 	</div>
 	<div class="image1" data-parallax="scroll" data-image-src="assets/images/March-on-Wash_AUG2013.jpg"></div>
 	<div class="biography">
+		<a name="bio"></a>
 		<article>
-			<p>I am a junior full stack web developer and CompTIA-certified Information Technology professional with a passion for creativity and the arts.  My professional background is in non-profit technology, public health, data management, research, engineering for developing communities, and human rights advocacy.<br />
+			<p><img src="assets/images/kim.jpg" alt="Kim" />I am a junior full stack web developer and CompTIA-certified Information Technology professional with a passion for creativity and the arts.  My professional background is in non-profit technology, public health, data management, research, engineering for developing communities, and human rights advocacy.<br />
 			<br />
 			Through my work as an administrator, engineer, health care volunteer and human rights advocate, I have helped to offer sustainable, community-driven technical solutions to non-profit organizations and the vulnerable populations they serve in the Americas and South Asia.  Over the last decade and a half, I have had the great pleasure of working with organizations such as Engineers Without Borders USA and Boulder County AIDS Project.  I believe in hard work and enjoying success as a team.<br />
 			<br />
@@ -43,14 +47,13 @@
 			This website is growing, so please come back to see more!</p>
 		</article>
 	</div>
-	<!-- <p id="newvisitor">Are you visiting for the first time?</p>
-			<button type="button"
-			onclick="document.getElementById('newvisitor').innerHTML = 'Welcome! Go to my Contact page and say hello.'">
-			Enter</button> -->
-	<footer class="footer" data-parallax="scroll" data-image-src="assets/images/foot-bridge.jpg">
-		<p style="font-size:14px;font-style:italic;text-align:center;">Kimberly Cabbagestalk Creer, 2016</p>
-		<a href="https://www.linkedin.com/in/kimberlycabbagestalk"><img src="assets/images/In-Black-41px-R.png" alt="LinkedIn"/></a>
-		<a href="https://github.com/kimcabb"><img src="assets/images/GitHub-Mark-64px.png" alt="GitHub" style="width:41px; height:41px"/></a>
-	</footer>
 </body>
+<footer class="footer" data-parallax="scroll" data-image-src="assets/images/foot-bridge.jpg">
+	<a name="contact"></a>
+	<div id="contact-info">
+		<p style="font-size:18px;font-style:italic;text-align:center;">Kimberly Cabbagestalk Creer, 2016</p>
+		<a href="https://www.linkedin.com/in/kimberlycabbagestalk"><img src="assets/images/In-White-66px-R.png" alt="LinkedIn"/></a>
+		<a href="https://github.com/kimcabb"><img src="assets/images/GitHub-Mark-Light-64px.png" alt="GitHub"/></a>
+	</div>
+</footer>
 </html>
