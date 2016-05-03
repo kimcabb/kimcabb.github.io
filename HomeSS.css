@@ -3,14 +3,23 @@ body 	{
   background: #f4f5f9;
   color: #181842;
   font-family: 'Titillium Web', sans-serif;
-    		}
-h1	{
+}
+
+header {
+  top: 0;
+  height: 550px;
+  width: auto;
+  bottom: 0;
+}
+
+h1 {
 	color: #181842;
 	text-align: left;
 	font-family: 'Poiret One', cursive;
 	font-size: 40px;
 	font-variant: small-caps;
-		}
+}
+
 ul	{
 	list-style-type: none;
 	margin: 0;
@@ -20,10 +29,12 @@ ul	{
 	background-color: #f1404b;
 	font-family: 'Raleway', sans-serif;
 	font-size: 22px;
-		}
+	}
+
 li	{
 	float: left;
-		}
+}
+
 li a 	{
   display: block;
   color: #f4f5f9;
@@ -31,18 +42,21 @@ li a 	{
   padding: 18px 20px;
   text-decoration: none;
   border-radius: 10px;
-		  }
+}
+
 li a:hover {
 	background-color: #181842;
 	color: #f1404b;
   border-radius: 10px;
-		  }
+}
+
 li a.active {
   background-color: #f8ca00;
   color: #181842;
   border-radius: 10px;
-		}
-button	{
+}
+
+/*button	{
 	border: 0;
 	padding: 10px;
 	font-family: 'Raleway', sans-serif;
@@ -50,7 +64,33 @@ button	{
 	border-radius: 15px;
 	background-color: #3ac569;
 	color: #181842;
-		}
-img 	{
-	border-radius: 10px;
-		}
+}*/
+
+projects {
+  top: 0;
+  height: 450px;
+  width: auto;
+  bottom: 0;
+}
+
+#sowgood {
+  top: 0;
+  height: 400px;
+  width: auto;
+  bottom: 0;
+}
+
+footer {
+  top: 0;
+  height: 250px;
+  width: auto;
+  bottom: 0;
+  color: #f1404b;
+}
+
+.parallax-window {
+  top: 0;
+  bottom: 0;
+  height: 400px;
+  background: transparent;
+}
