@@ -1,32 +1,8 @@
 body 	{
   text-align: center;
-  /*background: #f4f5f9;*/
+  background: #f4f5f9;
   color: #181842;
   font-family: 'Titillium Web', sans-serif;
-}
-
-/*.inside {
-  opacity: 1.0;
-  position: fixed;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}*/
-
-.background {
-  position: fixed;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  /*opacity: 0.5;*/
-  background: url("http://i.imgur.com/K2itHqG.jpg") no-repeat center fixed;
-  background-size: cover;
 }
 
 h1 {
@@ -46,10 +22,12 @@ ul	{
 	background-color: #f1404b;
 	font-family: 'Raleway', sans-serif;
 	font-size: 22px;
-		}
+	}
+
 li	{
 	float: left;
-		}
+}
+
 li a 	{
   display: block;
   color: #f4f5f9;
@@ -57,17 +35,20 @@ li a 	{
   padding: 18px 20px;
   text-decoration: none;
   border-radius: 10px;
-		  }
+}
+
 li a:hover {
 	background-color: #181842;
 	color: #f1404b;
   border-radius: 10px;
-		  }
+}
+
 li a.active {
   background-color: #f8ca00;
   color: #181842;
   border-radius: 10px;
-		}
+}
+
 button	{
 	border: 0;
 	padding: 10px;
@@ -76,10 +57,9 @@ button	{
 	border-radius: 15px;
 	background-color: #3ac569;
 	color: #181842;
-		}
-/*img 	{
-	border-radius: 10px;
-  border-style: solid;
-  border-color: #181842;
-  border-width: 15px;
-		}*/
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
